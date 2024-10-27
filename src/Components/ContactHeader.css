@@ -1,0 +1,28 @@
+.container{
+	display: grid;
+	/*grid-gap:0px;*/
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	
+}
+.contact2{
+	text-align: right;
+	font-size: 20px;
+	
+}
+h2 a{
+	text-decoration: none;
+	font-family: arial;
+	color: red;
+}
+.contact1{
+font-family: arial;
+font-size: 20px;
+text-align: left;
+color: red;
+
+margin-left: 0px;
+/*padding: 2px;*/
+}
+.contact1 span,.contact2 span{
+	color: blue;
+}
