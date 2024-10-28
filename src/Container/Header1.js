@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import './Header1.css';
 import searchicon from './searchicon.jpg';
 import {Tilt} from 'react-tilt';
+import logo from './logo.jpg';
 /*import 'tachyons';*/
 function Header1({ onRouteChange, searchChange, onSearchChange }) {
   return (
@@ -14,7 +15,7 @@ function Header1({ onRouteChange, searchChange, onSearchChange }) {
 	  <nav style={{display: 'flex', /*justifyContent: 'flex-end',*//* background:'white',*/ width: '100%', font: 'fantansy', margin: '0px 0px 0px 0px'}}>
   		<Tilt className="Tilt br2 shadow-2 options={{max: 55}} style={{position: 'relative', top:0, zIndex: 560, height:'25px', width: '150px'}}">
   		<div className="Tilt-inner">
-  		<img style={{float:'left', margin:'0', width: '150px', Height: '25px'}} src={'./photos/logo.jpg'} alt='logo' />
+  		<img style={{float:'left', margin:'0', width: '150px', Height: '25px'}} src={logo} alt='logo' />
   		</div> 
   		</Tilt>		
   		

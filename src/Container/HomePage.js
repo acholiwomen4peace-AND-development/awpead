@@ -19,6 +19,7 @@ import UWN from './Partners/UWN.jpg';
 import LFD from './Partners/LFD.jpg';
 import NAWOU from './Partners/NAWOU.jpg';
 import UWEAL from './Partners/UWEAL.jpg';
+import FocalPerson from './FocalPerson.jpg';
 
 
 
@@ -185,33 +186,99 @@ function HomePage(){
 				    </section>
 	   				 </div>
 	   			</div>
-	   	<div className="row">
-	   			<div className="column">
-	   			<div className= "Programme2 style={{width: '200px', height: 'auto'}}">
-	   			<div className="ProgrammmeHeading2">
-	   			<p> <span>OUR GOAL:</span>The purpose of AWPEAD is to empower the community of women and children for active participation in 
+
+	   	<div className='w-100 pointer center shadow-1  grow bg-light-blue pa1 br5 pa0 ma0'>
+		<h1 className='center'><span> <strong>ABOUT</strong></span></h1>
+		</div>
+
+	   	<div className="row w-100">
+	   		<div className="column w-40">
+	   		<div className="w-40 pa0 ma0">
+	   		<img src={FocalPerson} style={{width: '200px', height: '150px', 'margin-top': '5px'}} alt="Focal Person"/>
+	   		</div>
+	   		<div className="Background w-90">
+	   		<h6> BACKGROUND</h6>
+	   		<p>Acholi women for peace and development came in as a 
+	   		result of the concerted effort of the community to address 
+	   		issues of social justice and equality. This is particularly in 
+	   		response to the rehabilitation and the reconstruction needs resulting 
+	   		from the long period of insurgency in the northern Uganda with a focus 
+	   		on conflict reduction objective aimed at minimizing conditions for conflict and 
+	   		promoting an environment for durable peace and development.</p>
+	   		</div>
+	   		<div className="w-90">
+	   		<h6>Target Beneficiaries Includes:</h6>
+	   		<ol>
+	   		<li>Children, children born of war (Juveniles)</li>
+	   		<li>Child mothers</li>
+	   		<li>Women who are disadvantaged ie widows, single mothers, among others</li>
+	   		<li>Survivors of sexual and gender-based violence</li>
+	   		<li>Former abducted persons</li>
+	   		<li>Youth; age below 30</li>
+	   		</ol>
+	   		</div>
+	   		</div>
+
+	   			<div className="column w-60 h-60">
+	   			<div className=" flex-container3 w-100">
+	   			<div className= "Programme2 w-90">
+	   			<div className="ProgrammmeHeading2 ">
+	   			<h1>VISION</h1>
+	   			<p> Create Condition for women and girls for a more comprehensive peace and active citizenry for development.</p> 
+ 				</div>
+ 				</div>
+ 				
+
+ 				<div className= "Programme2 w-90">
+	   			<div className="ProgrammmeHeading2 ">
+	   			<h1>MISSION</h1>
+	   			<p>Promote an enabling environment for durable peace and development for women and girls through access to Justice
+	   			and empowernment initiatives</p> 
+ 				</div>
+ 				</div>
+ 				
+	   			<div className= "Programme2 w-90">
+	   			<div className="ProgrammmeHeading2 ">
+	   			<h1>OUR GOAL</h1>
+	   			<p>The purpose of AWPEAD is to empower the community of women and children for active participation in 
 	   			promoting peace and harmony, conflict transformation, human rights, child protection and economic initiatives in the community.  
 	   			</p> 
  				</div>
  				</div>
- 				
+ 				</div>
+ 			</div>
+ 			<div className="column w-30">
+	   		<div className="objectives ">
+	   		<h6>Strategis objectives</h6>
+	   		<ol className="w-100">
+	   		<li>To enhance the capacity of women
+	   		 to actively participate in Peace building activities for peaceful co-existence. </li>
+	   		<li>To promote better livelihood 
+	   		practices and the culture of savings among the women and young people for self-reliance.</li>
+	   		<li>To strengthen the capacity of structures and increase measures in 
+	   		reducing Child protection concerns. </li>
+	   		<li>To involve key stakeholders and community in promotion of Women rights, reduction 
+	   		on gender-based violence and access to justice for women and children.</li>
+	   		<li>Conduct awareness campaigns against HIV/AIDS, provide care/support for 
+	   		PHLA and reproductive health education for young girls and women.</li>
+	   		</ol>
+	   		</div>
 
+			<div className="thematic">
+	   		<h6>Thematic areas</h6>
+	   		<ol className="w-100">
+	   		<li>Peace Building</li>
+	   		<li>Women rights and access to Justice</li>
+	   		<li>Sexual and gender Based Violence prevention and response </li>
+	   		<li>Leadership and communication skills enhancement</li>
+	   		<li>Livelihood intervention; Agriculture, IGAs, small business, Village Savings and Loans Association (VSLA)</li>
+	   		<li>Child Protection/children in conflict with the law</li>
+	   		<li>Sexual and reproductive health and rights and HIV/AIDS</li>
+	   		</ol>
+	   		</div>
+	   		</div>
 	   	
-	   			<div className= "Programme2 style={{width: '200px', height: '200px'}}">
-	   			<div className="ProgrammmeHeading2">
-	   			<p> <span>VISION:</span> Create Condition for women and girls for a more comprehensive peace and active citizenry for development.</p> 
- 				</div>
- 				</div>
- 				
-
- 			
-	   			<div className= "Programme2 style={{width: '200px', height: '200px'}}">
-	   			<div className="ProgrammmeHeading2">
-	   			<p> <span>MISSION:</span>Promote an enabling environment for durable peace and development for women and girls through access to Justice
-	   			and empowernment initiatives</p> 
- 				</div>
- 				</div>
- 				</div>
+	   			
  		</div>
 
  				

@@ -95,6 +95,7 @@ h1{
 	
 	/*height: 1000px;*/
 }
+
 section p{
 	font-size: 8px;
 	font-family: fantasy !important;
@@ -118,6 +119,54 @@ height: auto;*/
    margin-left: 5px;
    margin-right: 5px;*/
   }
+.columnnn img{
+	display: flex;
+	align-items: center;
+	border: 5px solid darkblue;
+	padding-right: 0px;
+}
+.Background h6{
+	border-bottom: 10px solid darkred;
+border-left: 5px solid darkred;
+padding-left: 5px;
+font-weight: 50px;
+font-family: fantasy;
+font-size: 25px;
+color: darkred;
+text-emphasis-style: darkred!important;
+margin: 5px 5px 5px 0px;
+text-align: left;
+
+
+	}
+	.Background p{
+	background-color: darkblue;
+	color: whitesmoke;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	text-align: justify!important;
+}
+.Background p:hover{
+	background-color: black;
+	}
+.column h6{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: darkred;
+	text-emphasis-style: darkred;
+	border-bottom: 5px solid darkred;
+	margin-left: 5px;
+
+}
+.column ol{
+	text-align: justify!important;
+	margin-top: 0px;
+	color: darkblue;
+	font-size: 16.5px;
+	background-color: black;
+}
 
  .Programme2{
 /*width: 20%;
@@ -141,16 +190,50 @@ cursor: pointer;
 	text-align: center!important;
 	color: whitesmoke;
 }
-
-.Programme2 .ProgrammeHeadings2 p{
-	text-align: justify !important;
-	color: black;
+.Programme2{
+	display: flex;
+	background-color: darkblue;
+	border: 2px solid darkblue;
+	align-self: center;
 
 }
-.Programme2 .ProgrammeHeading2 p{
+.Programme2 .ProgrammmeHeading2 p:hover, .Programme2:hover{
+	background-color: black;
+	
+}
+.flex-container3{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	padding: 0px 0px 0px 0px;
+	flex-wrap: wrap;
+	border-bottom: 20px solid darkred;
+	border-right: 10px solid darkblue;
+	border-left: 10px solid darkblue;
+	border-top: 10px solid darkred;
+
+}
+
+
+
+.Programme2 .ProgrammmeHeading2 p{
 	font-size: 25px;
 	text-align: justify!important;
 	color: black;
+
+}
+.Programme2 .ProgrammmeHeading2 h1{
+	font-size: 25px;
+	font-weight: 5px;
+	text-align: center!important;
+	color: darkred !important;
+	font-family: "bookman old style"!important;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left:0px;
 }
  p{
 	font-size: 25px;
