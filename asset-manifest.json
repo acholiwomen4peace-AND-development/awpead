@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/awpead/static/css/main.1cdb693e.css",
+    "main.css": "/awpead/static/css/main.8aec2e36.css",
     "main.js": "/awpead/static/js/main.cde82f5a.js",
     "static/js/453.14b9f2b4.chunk.js": "/awpead/static/js/453.14b9f2b4.chunk.js",
     "static/media/im3.png": "/awpead/static/media/im3.fb611c70253e2688abfe.png",
@@ -36,12 +36,12 @@
     "static/media/Cellphone.JPG": "/awpead/static/media/Cellphone.031bb2ed39c398ec2aaa.JPG",
     "static/media/facebook.JPG": "/awpead/static/media/facebook.dbe9b1c3b22f3df82077.JPG",
     "index.html": "/awpead/index.html",
-    "main.1cdb693e.css.map": "/awpead/static/css/main.1cdb693e.css.map",
+    "main.8aec2e36.css.map": "/awpead/static/css/main.8aec2e36.css.map",
     "main.cde82f5a.js.map": "/awpead/static/js/main.cde82f5a.js.map",
     "453.14b9f2b4.chunk.js.map": "/awpead/static/js/453.14b9f2b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cdb693e.css",
+    "static/css/main.8aec2e36.css",
     "static/js/main.cde82f5a.js"
   ]
 }
