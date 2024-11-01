@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import {GridData} from './GridData';
 
 
 function ProjectGrid(props) {
@@ -8,7 +8,7 @@ function ProjectGrid(props) {
   return (
     <div className='tc bg-light-green dib br3 pa3 ma2 grow shadow-5'>
      
-		<img style={{width: 200, Height: 200}} src={`/photos/${props.id}.jpg `} alt='photo' />
+		<img style={{width: '200px', Height: '200px'}} src={`/staffPhotos/${props.id}.jpg`} alt='Staff Photo' />
 		<div>
 		<h2> {props.name} </h2>
 		<p> {props.birthDate} </p>

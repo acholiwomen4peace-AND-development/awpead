@@ -3,71 +3,80 @@ export const GridData =
 [
 	{
 	id: 1,
-	name: 'Apio Mercy'
+	name: 'Director',
+	email: 'driver@gmail.com'
 	},
 
 	{
 	id: 2,
-	name: 'Apio Mercy'
+	name: 'Coordinator',
+	email: 'coordinator@gmail.com'
 	},
 
 	{
 	id: 3,
-	name: 'Apio Mercy'
+	name: 'Project Officer',
+	email: 'project officer@gmail.com'
 	},
 	{
 	id: 16,
-	name: 'Apio Mercy'
+	name: 'volunteer',
+	email: 'volunteer@gmail.com'
 	},
 	{
 	id: 17,
-	name: 'Apio Mercy'
+	name: 'Programme Coordinator',
+	email: 'programmecoordinator@gmail.com'
 	},
 
 
 	{
 	id: 4,
-	name: 'Ocen Lawrence '
+	name: 'Accountant',
+	email: 'accountant@gmail.com'
 	},
 	{
 	id: 5,
-	name: 'Ocen Lawrence '
+	name: 'Office Assistant',
+	email: 'officeassistant@gmail.com'
 	
 	},
 	{
 	id: 6,
-	name: 'Ocen Lawrence '
+	name: 'Data Clerk',
+	email: 'dataclerk@gmail.com'
 	
 	},
 	{
 	id: 6-1,
-	name: 'Ocen Lawrence '
+	name: 'Procurement Officer',
+	email: 'procurement@gmail.com'
 	
 	},
 	
 	{
 	id: 10,
-	name: 'Okidi Michael - Volunteer IT Support',
+	name: 'Volunteer IT Support',
 	Contact:'0779943327/ 0782005826',
 	email: 'okidi.michael@gmail.com'
 	},
 
 	{
 	id: 13,
-	name: 'Aryemo Monica - Volunteer ',
+	name: ' Volunteer ',
 	contact :'0785487351',
-	email: 'monicaokot25@gmail.com'
+	email: 'volunteer@gmail.com'
 	},
 	{
 	id: 14,
-	name: 'Aryemo Monica - Volunteer ',
+	name: 'Volunteer ',
 	contact :'0785487351',
-	email: 'monicaokot25@gmail.com'
+	email: 'volunteer@gmail.com'
 	},
 	{
 	id: 15,
-	name: 'Aryemo Monica - Volunteer',
+	name: ' Driver',
 	Contact:'0785487351',
-	email: 'monicaokot25@gmail.com'
+	email: 'volunteer@gmail.com'
 	}
 ]

@@ -173,7 +173,7 @@ function HomePage(){
 				    <div className="ProgrammeHeading">
 				    <p>
 				    The involvement of women in leadership and decision-making position has impacted positively in the peace process and 
-				    discussions on critical issues. Violent is delayed as both genders had to understand the dynamics involved, thus reducing conflicts in community.   
+				    discussions on critical issues. Violent is delayed as both genders had to understand the dynamics involved, therefore reducing conflicts in community.   
 				    </p>
 				    <img style={{width: '800px', height: '300px'}} src={Peace2} alt="Peace Building"/>
 				    </div>
@@ -206,22 +206,22 @@ function HomePage(){
 	   		on conflict reduction objective aimed at minimizing conditions for conflict and 
 	   		promoting an environment for durable peace and development.</p>
 	   		</div>
-	   		<div className="w-90">
+	   		<div className=" Beneficiaries ProgrammmeHeading2 w-90">
 	   		<h6>Target Beneficiaries Includes:</h6>
 	   		<ol>
-	   		<li>Children, children born of war (Juveniles)</li>
-	   		<li>Child mothers</li>
-	   		<li>Women who are disadvantaged ie widows, single mothers, among others</li>
-	   		<li>Survivors of sexual and gender-based violence</li>
-	   		<li>Former abducted persons</li>
-	   		<li>Youth; age below 30</li>
+	   		<li>Children, children born of war ( Juveniles ).  </li>
+	   		<li>Child mothers.</li>
+	   		<li>Women who are disadvantaged ie widows, single mothers, among others.</li>
+	   		<li>Survivors of sexual and gender-based violence.</li>
+	   		<li>Former abducted persons.</li>
+	   		<li>Youth; aged 30 and below.</li>
 	   		</ol>
 	   		</div>
 	   		</div>
 
 	   			<div className="column w-60 h-60">
 	   			<div className=" flex-container3 w-100">
-	   			<div className= "Programme2 w-90">
+	   			<div className= "Programme2 w-90 ">
 	   			<div className="ProgrammmeHeading2 ">
 	   			<h1>VISION</h1>
 	   			<p> Create Condition for women and girls for a more comprehensive peace and active citizenry for development.</p> 
@@ -249,7 +249,7 @@ function HomePage(){
  			</div>
  			<div className="column w-30">
 	   		<div className="objectives ">
-	   		<h6>Strategis objectives</h6>
+	   		<h6>Strategic objectives</h6>
 	   		<ol className="w-100">
 	   		<li>To enhance the capacity of women
 	   		 to actively participate in Peace building activities for peaceful co-existence. </li>
@@ -267,13 +267,13 @@ function HomePage(){
 			<div className="thematic">
 	   		<h6>Thematic areas</h6>
 	   		<ol className="w-100">
-	   		<li>Peace Building</li>
-	   		<li>Women rights and access to Justice</li>
-	   		<li>Sexual and gender Based Violence prevention and response </li>
-	   		<li>Leadership and communication skills enhancement</li>
-	   		<li>Livelihood intervention; Agriculture, IGAs, small business, Village Savings and Loans Association (VSLA)</li>
-	   		<li>Child Protection/children in conflict with the law</li>
-	   		<li>Sexual and reproductive health and rights and HIV/AIDS</li>
+	   		<li>Peace Building Programmes.</li>
+	   		<li>Women rights and access to Justice.</li>
+	   		<li>Sexual and gender Based Violence prevention and response. </li>
+	   		<li>Leadership and communication skills enhancement.</li>
+	   		<li>Livelihood intervention; Agriculture, IGAs, small business, Village Savings and Loans Association (VSLA).</li>
+	   		<li>Child Protection/children in conflict with the law.</li>
+	   		<li>Sexual and reproductive health, rights and HIV/AIDS.</li>
 	   		</ol>
 	   		</div>
 	   		</div>

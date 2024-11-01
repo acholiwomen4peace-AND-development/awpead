@@ -48,6 +48,8 @@ h1{
 	font-size: 12px !important;
 }
 
+
+
 /*.content-2{
 	display: flex;
 	
@@ -96,9 +98,13 @@ h1{
 	/*height: 1000px;*/
 }
 
-section p{
-	font-size: 8px;
+section p, .Programme2 .ProgrammeHeading2 p, .Programme2 .ProgrammeHeading2 h1,
+.Programme2 .ProgrammeHeading2 h6, .ProgrammmeHeading2 li{
+	font-size: 10px;
 	font-family: fantasy !important;
+	}
+	.ProgrammmeHeading2 li{
+		font-size: 20px;
 	}
 }
 .content-2 img{
@@ -158,6 +164,7 @@ text-align: left;
 	text-emphasis-style: darkred;
 	border-bottom: 5px solid darkred;
 	margin-left: 5px;
+	font-family: fantasy !important;
 
 }
 .column ol{
@@ -166,6 +173,7 @@ text-align: left;
 	color: darkblue;
 	font-size: 16.5px;
 	background-color: black;
+	font-family: fantasy !important;
 }
 
  .Programme2{
@@ -201,6 +209,9 @@ cursor: pointer;
 	background-color: black;
 	
 }
+.Beneficiaries li:hover, .objectives li:hover, .thematic li:hover{
+background-color: #39B54A;
+}
 .flex-container3{
 	display: flex;
 	flex-direction: column;
@@ -219,13 +230,13 @@ cursor: pointer;
 
 
 .Programme2 .ProgrammmeHeading2 p{
-	font-size: 25px;
+	font-size: 20px;
 	text-align: justify!important;
 	color: black;
 
 }
 .Programme2 .ProgrammmeHeading2 h1{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 5px;
 	text-align: center!important;
 	color: darkred !important;
@@ -235,6 +246,7 @@ cursor: pointer;
 	margin-bottom: 0px;
 	margin-left:0px;
 }
+
  p{
 	font-size: 25px;
 	text-align: center!important;
@@ -316,6 +328,7 @@ color: whitesmoke!important;
     max-width: 100%;
     
   }
+
 }
 
 /*Partners and Supporter*/
