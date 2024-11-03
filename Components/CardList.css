@@ -1,0 +1,48 @@
+.test p, h2{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	text-align: center;
+	color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+.test p{
+	font-size: 20px;
+}
+
+@media (max-width: 650px) {
+.Card{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 100%;
+}
+img{
+	/*display: flex;*/
+/*height: 100%;*/
+	object-fit: contain;
+
+}
+.test h2, .test p{
+	display: flex;
+	flex-wrap:  wrap;
+	flex-direction: row;
+	 font-size: 15px;	
+}
+
+
+}
+
+@media (max-width: 1000px) {
+	.test h2, .test p{
+	display: flex;
+	flex-wrap:  wrap;
+	flex-direction: row;
+	justify-content: center;
+	 font-size: 15px;	
+}
+}
