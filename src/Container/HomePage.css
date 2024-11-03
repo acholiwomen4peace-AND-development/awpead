@@ -44,7 +44,7 @@ h1{
 	flex-direction: column;
 	flex-wrap: wrap;
 	}
-	.ProgrammeHeadings,p{
+	.ProgrammeHeadings,p, ol li, h6{
 	font-size: 12px !important;
 }
 
@@ -364,6 +364,9 @@ color: whitesmoke!important;
     max-width: 50%;
     margin-top: 20px;
       }
+  ol li, h6{
+  	font-size: 8px;
+  }
 }
 
 @media (max-width: 600px){
@@ -395,10 +398,11 @@ border-bottom: #FFD400;
   border-right: #FFD400;
   color: black;
   font-size: 40px;
+  
 }
 @media (max-width: 1028px) and (min-width: 300px){
 .buttonDonateNow{
-font-size: 12px;
+font-size: 20px;
 }	
 }
 .buttonDonateNow:hover{
@@ -410,8 +414,15 @@ border-bottom: #39B54A;
 
 color:whitesmoke;
 }
+ol, table, th,td, tr{
+	background-color: white;
+	border: 3px solid #fff4A3;
+}
 
-
+.Background ol, table, th,td, tr{
+	background-color: white;
+	border: 3px solid darkred;
+}
 
 
 

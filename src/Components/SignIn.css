@@ -49,11 +49,4 @@ height: 10%;
 span{
 	padding-right: 20px;
 }
-h2{
-	text-align: center;
-	color: coral;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-family: fantasy;
-    font-size: 30px;
-}
-
+ 

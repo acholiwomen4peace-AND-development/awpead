@@ -5,31 +5,152 @@ import ButtonMailto from './ButtonMailto';
 import facebook from './facebook.JPG';
 import Whatsapp from './Whatsapp.png'
 import './Footer1.css';
+import logo from './logo.jpg';
 /*import ReactDOM from 'react-dom/client';*/
 
-function Footer1(){
+import 'tachyons';
+import { Link } from "react-router-dom";
+import {NavLink} from "react-router-dom";
+function Footer1({onRouteChange}){
 			
 return (
-	
-	<div className="Footer-container">
-		<div className="flex-item-left">
-		<p> <img src={Copyright} alt="Copy rights:" style={{width: '20px', height: '20px'}}/> 2024 Acholi Women for Peace and Development. All Rights Reserved </p>
-		</div>
+<div className="FHeight">
+<div className="Footer-container1">
 
-		 <div className="flex-item-right">
+<div className="coln">
+	<div className= "FooterLogo  w-5">
+  		<img style={{ 'border-radius': '2px', float:'left', width: '50px', Height: '25px'}} src={logo} alt='Awpead logo' />
 		
+	</div>
+	<div>
+	
+	
+	<h5><a onClick={()=>onRouteChange('HomePage')}  href=""><NavLink to="/Home">Home</NavLink></a></h5>
 
-			<ButtonMailto 
-			label={<img src={Email2} alt="Email:" style={{width: '10px', height: '10px'}}/>}  mailto="mailto:acholiwomen4peaced@gmail.com" />
+	     <div className="dropdown" style={{zIndex: 400}}>
+	   
+	     
+	<h5><a href=""><NavLink to="/About Us">About Us</NavLink></a></h5>
+	      <div className="dropdownlist">
+	     <p><a className="Listdown" href=""><NavLink to="/About Us/Who We are">Who We are</NavLink></a></p>
+	     <p><a className="Listdown" href=""><NavLink to="/About Us/Vision, Mission & Values">Vision, Mission & Values</NavLink></a></p>
+	     <p><a className="Listdown" href=""><NavLink to="/About Us/Where We work">Where We work</NavLink></a></p>
+	     <p><a className="Listdown" onClick={()=>onRouteChange('HomePage')}href=""><NavLink to="/About Us/Our Approach">Our Approach</NavLink></a></p>
+	     <p><a className="Listdown" onClick= {() =>onRouteChange('OurTeam')}><NavLink to="/About Us/Our Team">Our Team</NavLink></a></p>
+	     
+	     </div>
+	     </div>
+	
+	
+	
+	     <div className="dropdown" style={{zIndex: 400}}>
+	    <h5> <a href=""><NavLink to="/Our Work">Our Work</NavLink></a></h5>
+	      <div className="dropdownlist">
+	     <p><a className="Listdown" onClick={()=>onRouteChange('Whowe')} href=""><NavLink to="/Our Work/Gender Equality and Women's">Gender Equality and Women's Rights</NavLink></a></p>
+	     <p><a className="Listdown" href=""><NavLink to="/Our Work/Peace Building and Access to Justice">Peace Building and Access to Justice</NavLink></a></p>
+	     <p><a className="Listdown" href=""><NavLink to="/Our Work/Economic Empowernent and Women Business Enhancement">Economic Empowernent and Women Business Enhancement</NavLink></a></p>
+	      <p><a className="Listdown" href=""><NavLink to="/Our Work/Leadership and Institutional Development">Leadership and Institutional Development</NavLink></a></p>
+	      <p><a className="Listdown" href=""><NavLink to="/Our Work/Health: HIV/AIDs and SRHR">Health: HIV/AIDs and SRHR</NavLink></a></p>
+	     <p><a className="Listdown" href=""><NavLink to="/Our Work/Advocacy and Social Research">Advocacy and Social Research</NavLink></a></p>
+
+	     </div>
+	     </div>
+	   
+
+	<h5><a href=""><NavLink to="/Our Impact">Our Impact</NavLink></a></h5>
+	
+	   <div className="dropdown" style={{zIndex: 550}}>
+	   <h5><a className="GetInvolved" href=""><NavLink to="/Get Involved">Get Involved</NavLink></a></h5>
+	     <div className="dropdownlist">
+	     <p><a className="Listdown" href=""><NavLink to="/Get Involved/Careers">Careers</NavLink></a></p>
+	     <p><a className="Listdown" href=""><NavLink to="/Get Involved/Internship">Internship</NavLink></a></p>
+	     <p><a className="Listdown" href=""><NavLink to="/Get Involved/Volunteer With Us">Volunteer With Us</NavLink></a></p>
+	   </div>
+	   </div>
+	
+	<h5><a href=""><NavLink to="/Contact Us">Contact Us</NavLink></a></h5>
+	
+	
+
+	
+	<h5 ><a onClick={()=>onRouteChange('Register')}><NavLink to="/Sign Up">Sign Up</NavLink></a></h5>
+	<h5><a onClick={()=>onRouteChange('SignIn')}><NavLink to="/Staff Portal">Staff Portal</NavLink></a></h5>	
+	
+
+
+	
+	</div>
+
+<div className="row">
+
+
+<div className="column w-40">
+<div className="Hh5">
+<h5>Physical Address</h5>
+</div>
+<div>
+<p><strong>Head Office:</strong> Patongo Town Council</p>
+<p>Patongo Lira Road</p>
+<p>P.O. Box - Agago (Northern Uganda).</p>
+</div>
+<span></span>
+<p><strong>Coordination Office: </strong>Kitgum Municipal Council</p>
+<p>Bardege Pandwong Division, Kitgum-Gulu Road</p>
+<p>P.O Box 36 Kitgum (U).</p>
+</div>
+
+<div className="column w-40">
+<div className="Hh5">
+<h5>Contact Information</h5>
+</div>
+<p>Tel: 0782 888 455 / 0751 444 039</p>
+<p>Email: acholiwomen4peaced@gmail.com</p>
+<p><a href="https://acholiwomen4peace-and-development.github.io/awpead/">https://acholiwomen4peace-and-development.github.io/awpead/</a></p>
+</div>
+
+<div className="column w-40">
+<div className="Hh5">
+<h5>Other Links</h5>
+</div>
+<div className="row">
+<div className="column w-40">
+<p><a href="https://www.uweal.co.ug">https://www.uweal.co.ug</a></p>
+<p><a href="https://librefoundation.nl/en">https://librefoundation.nl/en</a></p>
+<p><a href="https://nawouganda.ug">https://nawouganda.ug</a></p>
+<p><a href="https://www.uwonet.or.ug">https://www.uwonet.or.ug</a></p>
+<p><a href="https://www.health.go.ug">https://www.health.go.ug</a></p>
+</div>
+<div className="column w-40">
+<div className="Hh5">
+<h5>Connect with Us</h5>
+</div>
+<ButtonMailto 
+			label={<img src={Email2} alt="Email:" style={{width: '20px', height: '20px'}}/>}  mailto="mailto:acholiwomen4peaced@gmail.com" />
 		  
 		  	<span></span>
-			<img src={facebook} alt="facebook" style={{width: '15px', height: '15px'}}/>
+			<img src={facebook} alt="facebook" style={{width: '20px', height: '20px'}}/>
 		 <span></span>
-		<a href="https://wa.me/256782005825"> <img src={Whatsapp} alt="Whatsapp" style={{width: '15px', height: '15px', cursor: 'pointer'}}/></a> 
-		 </div>
+		<a href="https://wa.me/256782005825"> <img src={Whatsapp} alt="Whatsapp" style={{width: '20px', height: '20px', cursor: 'pointer'}}/></a> 
+</div>
+
+</div>
+</div>
+</div>
 
 
-	</div>	
+
+	</div>
+</div>
+	
+	
+<div className="Footer-container2 CopyR">
+		<div className="flex-item-left">
+		<p> <img src={Copyright} alt="Copy rights:" style={{width: '20px', height: '20px'}}/>Copy Rights Acholi Women for Peace and Development<span>|</span>2024 All Rights Reserved </p>
+		</div>
+
+
+</div>	
+</div>
 	
 	
 		);

@@ -1,20 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {GridData} from './GridData';
-
+import './CardList.css';
+/*import mike from './mike.jpg';*/
 
 function ProjectGrid(props) {
-/*const pic = require("./photos/1.jpg");*/
+const pic = require(`./staff/${props.id}.jpg`);
   return (
-    <div className='tc bg-light-green dib br3 pa3 ma2 grow shadow-5'>
-     
-		<img style={{width: '200px', Height: '200px'}} src={`/staffPhotos/${props.id}.jpg`} alt='Staff Photo' />
-		<div>
+<div className=' test w-25 tc bg-light-green dib br3 pa3 ma2 grow shadow-5'>
+  
+    <img style={{width: '200px', height: '200px'}} src={pic} alt="Staff Photos" /> 
+		<div >
 		<h2> {props.name} </h2>
-		<p> {props.birthDate} </p>
+		<p> {props.contact} </p>
 		<p> {props.email} </p>
 		</div>
-	</div>
+	
+</div>
   );
 }
 export default ProjectGrid;

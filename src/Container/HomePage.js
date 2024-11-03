@@ -193,11 +193,16 @@ function HomePage(){
 
 	   	<div className="row w-100">
 	   		<div className="column w-40">
+	   		
 	   		<div className="w-40 pa0 ma0">
 	   		<img src={FocalPerson} style={{width: '200px', height: '150px', 'margin-top': '5px'}} alt="Focal Person"/>
 	   		</div>
+
 	   		<div className="Background w-90">
 	   		<h6> BACKGROUND</h6>
+	   		<table>
+	   		<tr>
+	   		<td>
 	   		<p>Acholi women for peace and development came in as a 
 	   		result of the concerted effort of the community to address 
 	   		issues of social justice and equality. This is particularly in 
@@ -205,16 +210,52 @@ function HomePage(){
 	   		from the long period of insurgency in the northern Uganda with a focus 
 	   		on conflict reduction objective aimed at minimizing conditions for conflict and 
 	   		promoting an environment for durable peace and development.</p>
+	   		</td>
+	   		</tr>
+	   		</table>
 	   		</div>
+
 	   		<div className=" Beneficiaries ProgrammmeHeading2 w-90">
 	   		<h6>Target Beneficiaries Includes:</h6>
 	   		<ol>
+	   		<table>
+	   		<tr>
+	   		<td>
 	   		<li>Children, children born of war ( Juveniles ).  </li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Child mothers.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Women who are disadvantaged ie widows, single mothers, among others.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Survivors of sexual and gender-based violence.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Former abducted persons.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Youth; aged 30 and below.</li>
+	   		</td>
+	   		</tr>
+
+	   		</table>
 	   		</ol>
 	   		</div>
 	   		</div>
@@ -250,31 +291,96 @@ function HomePage(){
  			<div className="column w-30">
 	   		<div className="objectives ">
 	   		<h6>Strategic objectives</h6>
-	   		<ol className="w-100">
+	   		<table>
+	   		<ol>
+
+	   		<tr>
+	   		<td>
 	   		<li>To enhance the capacity of women
 	   		 to actively participate in Peace building activities for peaceful co-existence. </li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>To promote better livelihood 
 	   		practices and the culture of savings among the women and young people for self-reliance.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>To strengthen the capacity of structures and increase measures in 
 	   		reducing Child protection concerns. </li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>To involve key stakeholders and community in promotion of Women rights, reduction 
 	   		on gender-based violence and access to justice for women and children.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Conduct awareness campaigns against HIV/AIDS, provide care/support for 
 	   		PHLA and reproductive health education for young girls and women.</li>
+	   		</td>
+	   		</tr>
+
 	   		</ol>
+	   		</table>
 	   		</div>
 
 			<div className="thematic">
 	   		<h6>Thematic areas</h6>
-	   		<ol className="w-100">
+	   		<table>
+	   		<ol>
+
+	   		<tr>
+	   		<td>
 	   		<li>Peace Building Programmes.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Women rights and access to Justice.</li>
+	   		</td>
+	   		</tr>
+	   		<tr>
+	   		<td>
 	   		<li>Sexual and gender Based Violence prevention and response. </li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Leadership and communication skills enhancement.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Livelihood intervention; Agriculture, IGAs, small business, Village Savings and Loans Association (VSLA).</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Child Protection/children in conflict with the law.</li>
+	   		</td>
+	   		</tr>
+
+	   		<tr>
+	   		<td>
 	   		<li>Sexual and reproductive health, rights and HIV/AIDS.</li>
+	   		</td>
+	   		</tr>
+
 	   		</ol>
+	   		</table>
 	   		</div>
 	   		</div>
 	   	
@@ -291,7 +397,7 @@ function HomePage(){
 		<ButtonMailto label={"Send Email NOW"} mailto="mailto:acholiwomen4peaced@gmail.com" />
 		
 		<div style={{height: '25px'}} className='w-80 br-20 pointer center shadow-1  grow bg-light-blue br5 pa0 ma0'>
-		<h1 className='center'><span> <strong>PARTNERS AND SUPPORTERS</strong></span></h1>
+		<h1 className='center'><span> <strong>OUR DEVELOPMENT PARTNERS AND SUPPORTERS</strong></span></h1>
 		</div>
 
 		<div className="flex-container-2 row2">

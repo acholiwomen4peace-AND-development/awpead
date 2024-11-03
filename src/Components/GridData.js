@@ -1,40 +1,19 @@
 
 export const GridData = 
 [
-	{
-	id: 1,
-	name: 'Director',
-	email: 'driver@gmail.com'
-	},
-
-	{
-	id: 2,
-	name: 'Coordinator',
-	email: 'coordinator@gmail.com'
-	},
-
-	{
-	id: 3,
-	name: 'Project Officer',
-	email: 'project officer@gmail.com'
-	},
+	
 	{
 	id: 16,
-	name: 'volunteer',
-	email: 'volunteer@gmail.com'
+	name: 'Director',
+	email: 'director@gmail.com'
 	},
 	{
 	id: 17,
-	name: 'Programme Coordinator',
+	name: 'Coordinator',
+	contact:'0782888455',
 	email: 'programmecoordinator@gmail.com'
 	},
 
-
-	{
-	id: 4,
-	name: 'Accountant',
-	email: 'accountant@gmail.com'
-	},
 	{
 	id: 5,
 	name: 'Office Assistant',
@@ -56,14 +35,14 @@ export const GridData =
 	
 	{
 	id: 10,
-	name: 'Volunteer IT Support',
-	Contact:'0779943327/ 0782005826',
+	name: 'Okidi- IT Support',
+	contact:'0779943327/ 0782005826',
 	email: 'okidi.michael@gmail.com'
 	},
 
 	{
 	id: 13,
-	name: ' Volunteer ',
+	name: ' Monica - Volunteer ',
 	contact :'0785487351',
 	email: 'volunteer@gmail.com'
 	},
