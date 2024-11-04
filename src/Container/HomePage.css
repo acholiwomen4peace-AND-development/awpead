@@ -44,9 +44,22 @@ h1{
 	flex-direction: column;
 	flex-wrap: wrap;
 	}
+
+	 .flex-container-2 img{
+		/*width: 100%;*/
+		height: 100px;
+	}
+
+	
 	.ProgrammeHeadings,p, ol li, h6{
-	font-size: 12px !important;
+	font-size: 14px !important;
 }
+
+.Background h6{
+	font-family: "Times New Roman";
+	font-size: 14px;
+	}
+
 
 
 
@@ -58,8 +71,6 @@ h1{
 }*/
 
 }
-
-
 
 
 .flex-container-1 img{
@@ -101,7 +112,7 @@ h1{
 section p, .Programme2 .ProgrammeHeading2 p, .Programme2 .ProgrammeHeading2 h1,
 .Programme2 .ProgrammeHeading2 h6, .ProgrammmeHeading2 li{
 	font-size: 10px;
-	font-family: fantasy !important;
+	font-family: "Times New Roman" !important;
 	}
 	.ProgrammmeHeading2 li{
 		font-size: 20px;
@@ -146,15 +157,16 @@ text-align: left;
 
 	}
 	.Background p{
-	background-color: darkblue;
+	background-color: #96D4D4;
 	color: whitesmoke;
+	font-size: 14px;
 	margin-bottom: 5px;
 	margin-top: 5px;
 	margin-right: 5px;
 	text-align: justify!important;
 }
 .Background p:hover{
-	background-color: black;
+	background-color: #04AA6D;
 	}
 .column h6{
 	margin-top: 5px;
@@ -172,7 +184,7 @@ text-align: left;
 	margin-top: 0px;
 	color: darkblue;
 	font-size: 16.5px;
-	background-color: black;
+	background-color: white;
 	font-family: fantasy !important;
 }
 
@@ -201,12 +213,13 @@ cursor: pointer;
 .Programme2{
 	display: flex;
 	background-color: darkblue;
-	border: 2px solid darkblue;
+	/*border: 2px solid darkblue;*/
 	align-self: center;
 
 }
 .Programme2 .ProgrammmeHeading2 p:hover, .Programme2:hover{
-	background-color: black;
+	background-color: #04AA6D;
+	color: black;
 	
 }
 .Beneficiaries li:hover, .objectives li:hover, .thematic li:hover{
@@ -220,10 +233,10 @@ background-color: #39B54A;
 
 	padding: 0px 0px 0px 0px;
 	flex-wrap: wrap;
-	border-bottom: 20px solid darkred;
+	/*border-bottom: 20px solid darkred;
 	border-right: 10px solid darkblue;
 	border-left: 10px solid darkblue;
-	border-top: 10px solid darkred;
+	border-top: 10px solid darkred;*/
 
 }
 
@@ -319,6 +332,7 @@ color: whitesmoke!important;
     flex: 50%;
     max-width: 50%;
       }
+  
 }
 
 @media (max-width: 600px) {
@@ -328,7 +342,7 @@ color: whitesmoke!important;
     max-width: 100%;
     
   }
-
+ 
 }
 
 /*Partners and Supporter*/
@@ -348,6 +362,7 @@ color: whitesmoke!important;
   justify-content: center;
   position: relative;
   margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 40px;
   
 }
@@ -364,8 +379,9 @@ color: whitesmoke!important;
     max-width: 50%;
     margin-top: 20px;
       }
-  ol li, h6{
+  ol li, h6,p{
   	font-size: 8px;
+  	font-family: "Times New Roman";
   }
 }
 
@@ -422,6 +438,7 @@ ol, table, th,td, tr{
 .Background ol, table, th,td, tr{
 	background-color: white;
 	border: 3px solid darkred;
+	font-family: "Times New Roman";
 }
 
 

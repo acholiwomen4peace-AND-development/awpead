@@ -198,21 +198,15 @@ function HomePage(){
 	   		<img src={FocalPerson} style={{width: '200px', height: '150px', 'margin-top': '5px'}} alt="Focal Person"/>
 	   		</div>
 
-	   		<div className="Background w-90">
+	   		<div className="Background ggg w-100">
 	   		<h6> BACKGROUND</h6>
-	   		<table>
-	   		<tr>
-	   		<td>
-	   		<p>Acholi women for peace and development came in as a 
+	    	<p className="w-100 tc dib br3 pa3 grow shadow-5">Acholi women for peace and development came in as a 
 	   		result of the concerted effort of the community to address 
 	   		issues of social justice and equality. This is particularly in 
 	   		response to the rehabilitation and the reconstruction needs resulting 
 	   		from the long period of insurgency in the northern Uganda with a focus 
 	   		on conflict reduction objective aimed at minimizing conditions for conflict and 
 	   		promoting an environment for durable peace and development.</p>
-	   		</td>
-	   		</tr>
-	   		</table>
 	   		</div>
 
 	   		<div className=" Beneficiaries ProgrammmeHeading2 w-90">
@@ -262,24 +256,24 @@ function HomePage(){
 
 	   			<div className="column w-60 h-60">
 	   			<div className=" flex-container3 w-100">
-	   			<div className= "Programme2 w-90 ">
-	   			<div className="ProgrammmeHeading2 ">
+	   			<div className= "Programme2 w-90 tc dib br3 pa2 grow shadow-5">
+	   			<div className="ProgrammmeHeading2">
 	   			<h1>VISION</h1>
 	   			<p> Create Condition for women and girls for a more comprehensive peace and active citizenry for development.</p> 
  				</div>
  				</div>
  				
 
- 				<div className= "Programme2 w-90">
-	   			<div className="ProgrammmeHeading2 ">
+ 				<div className= "Programme2 w-90 tc dib br3 pa2 grow shadow-5">
+	   			<div className="ProgrammmeHeading2">
 	   			<h1>MISSION</h1>
 	   			<p>Promote an enabling environment for durable peace and development for women and girls through access to Justice
 	   			and empowernment initiatives</p> 
  				</div>
  				</div>
  				
-	   			<div className= "Programme2 w-90">
-	   			<div className="ProgrammmeHeading2 ">
+	   			<div className= "Programme2 w-90 tc dib br3 pa2 grow shadow-5">
+	   			<div className="ProgrammmeHeading2">
 	   			<h1>OUR GOAL</h1>
 	   			<p>The purpose of AWPEAD is to empower the community of women and children for active participation in 
 	   			promoting peace and harmony, conflict transformation, human rights, child protection and economic initiatives in the community.  
@@ -291,9 +285,9 @@ function HomePage(){
  			<div className="column w-30">
 	   		<div className="objectives ">
 	   		<h6>Strategic objectives</h6>
-	   		<table>
+	   		
 	   		<ol>
-
+	   		<table>
 	   		<tr>
 	   		<td>
 	   		<li>To enhance the capacity of women
@@ -328,16 +322,16 @@ function HomePage(){
 	   		PHLA and reproductive health education for young girls and women.</li>
 	   		</td>
 	   		</tr>
-
-	   		</ol>
 	   		</table>
+	   		</ol>
+	   		
 	   		</div>
 
 			<div className="thematic">
 	   		<h6>Thematic areas</h6>
-	   		<table>
+	   		
 	   		<ol>
-
+	   		<table>
 	   		<tr>
 	   		<td>
 	   		<li>Peace Building Programmes.</li>
@@ -378,9 +372,9 @@ function HomePage(){
 	   		<li>Sexual and reproductive health, rights and HIV/AIDS.</li>
 	   		</td>
 	   		</tr>
-
-	   		</ol>
 	   		</table>
+	   		</ol>
+	   		
 	   		</div>
 	   		</div>
 	   	

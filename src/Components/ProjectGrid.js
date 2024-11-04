@@ -11,9 +11,9 @@ const pic = require(`./staff/${props.id}.jpg`);
   
     <img style={{width: '200px', height: '200px'}} src={pic} alt="Staff Photos" /> 
 		<div >
-		<h2> {props.name} </h2>
-		<p> {props.contact} </p>
-		<p> {props.email} </p>
+		<h2 className="name1"> {props.name} </h2>
+		<p className="contact1">{props.contact} </p>
+		<p className="email1"> {props.email} </p>
 		</div>
 	
 </div>
