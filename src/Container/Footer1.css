@@ -96,6 +96,7 @@ padding-right: 2%;
 	justify-content: center!important;
 	width: 100%;
 	
+	
 }
 .w-40{
 	margin-left: 10px;
@@ -112,7 +113,7 @@ padding-right: 2%;
   	font-size: 5px;
   	  }
 .Footer-container1{
-	height: 720px;
+	height: 730px;
 }
 h5 a{
 	font-size: 14px;
@@ -207,4 +208,10 @@ background-color: black;
 
 .Footer-container1 .dropdownlist{
 	background-color: #f1f1f1!important;
+}
+
+
+.phover p:hover{
+	background-color: #5555;
+	color: red;
 }

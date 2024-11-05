@@ -28,8 +28,8 @@ function HomePage(){
 	return ( 
 <div>
 
-		<div className='w-92 pointer center grow shadow-5 bg-black pa1 br5 ma0'>
-		<p className='w-75 center'><span> <strong>AWPEAD</strong></span>Is a Ugandan NGO that provides support to communities
+		<div className='UgandanNGO w-92 pointer center grow shadow-5 bg-black pa1 br5 ma0'>
+		<p className=' w-75 center'><span> <strong>AWPEAD</strong></span>Is a Ugandan NGO that provides support to communities
 		 in Post-Conflict recovery majorly addressing issues of Social Justice and equality
 		  to promote an environment for durable peace & development.</p>
 		</div>

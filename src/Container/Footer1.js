@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
-import Email2 from './Email2.JPG';
 import Copyright from './Copyright.JPG';
 import ButtonMailto from './ButtonMailto';
-import facebook from './facebook.JPG';
-import Whatsapp from './Whatsapp.png'
 import './Footer1.css';
 import logo from './logo.jpg';
 /*import ReactDOM from 'react-dom/client';*/
@@ -11,6 +8,12 @@ import logo from './logo.jpg';
 import 'tachyons';
 import { Link } from "react-router-dom";
 import {NavLink} from "react-router-dom";
+
+import {FacebookShareCount, EmailShareButton, FacebookIcon, FacebookShareButton,EmailIcon, 
+	WhatsappShareButton, WhatsappIcon, TwitterShareButton, TwitterIcon, 
+	LineIcon, LineShareButton} from 'react-share';
+import {ShareSocial} from 'react-share-social';
+
 function Footer1({onRouteChange}){
 			
 return (
@@ -83,7 +86,7 @@ return (
 <div className="row">
 
 
-<div className="column w-40">
+<div className="column phover w-40">
 <div className="Hh5">
 <h5>Physical Address</h5>
 </div>
@@ -99,7 +102,7 @@ return (
 </div>
 
 
-<div className="column w-40">
+<div className="column phover w-40">
 <div className="Hh5">
 <h5>Contact Information</h5>
 </div>
@@ -123,17 +126,20 @@ return (
 <p className="Backcolor"><a href="https://www.uwonet.or.ug">UWONET [https://www.uwonet.or.ug]</a></p>
 <p className="Backcolor"><a href="https://www.health.go.ug">GOU [https://www.health.go.ug]</a></p>
 </div>
-<div className="column w-40">
+
+<div className="column phover w-40">
 <div className="Hh5">
-<h5>Connect with Us</h5>
+<h5 className="connectus">Connect with Us</h5>
 </div>
+<span></span>
 <ButtonMailto 
-			label={<img src={Email2} alt="Email:" style={{width: '20px', height: '20px'}}/>}  mailto="mailto:acholiwomen4peaced@gmail.com" />
+			label={<EmailIcon size={25} round={true}/>}  mailto="mailto:acholiwomen4peaced@gmail.com" style={{cursor: 'pointer'}}/>
 		  
 		  	<span></span>
-			<img src={facebook} alt="facebook" style={{width: '20px', height: '20px'}}/>
+		  		<FacebookIcon size={25} round={true} style={{cursor: 'pointer'}}/>
+		
 		 <span></span>
-		<a href="https://wa.me/256782005825"> <img src={Whatsapp} alt="Whatsapp" style={{width: '20px', height: '20px', cursor: 'pointer'}}/></a> 
+		<a href="https://wa.me/256782005825"><WhatsappIcon size={25} round={true} style={{cursor: 'pointer'}}/></a> 
 </div>
 
 </div>

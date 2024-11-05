@@ -265,7 +265,7 @@ background-color: #39B54A;
 	text-align: center!important;
 }
 
-.Programme:hover,img:hover,p:hover{
+.Programme:hover,img:hover, .UgandanNGO p:hover, .flex-container-1 p:hover{
 cursor: pointer;
 background-color: darkblue;
 border-radius: 5px;
