@@ -195,7 +195,7 @@ function HomePage(){
 	   		<div className="column w-40">
 	   		
 	   		<div className="w-40 pa0 ma0">
-	   		<img src={FocalPerson} style={{width: '200px', height: '150px', 'margin-top': '5px'}} alt="Focal Person"/>
+	   		<img src={FocalPerson} style={{width: '200px', height: '150px', 'margin-top': '5px'}} alt="ACHOLI WOMEN FOR PEACE & DEVLOPMENT"/>
 	   		</div>
 
 	   		<div className="Background ggg w-100">
@@ -399,7 +399,7 @@ function HomePage(){
 		<div className="column2">
 		<Tilt className="content-2 Tilt br2 shadow-2" className="options={{max: 55}} style={{zIndex: 500, height:'50px', width: '150px'}}">
   		<div className="Tilt-inner">
-  		<img style={{margin:'0', width: '150px', Height: '50px'}} src={GOU} alt='logo' />
+  		<img style={{margin:'0', width: '150px', Height: '50px'}} src={GOU} alt='GOVERNMENT OF UGANDA' />
   		</div> 
   		</Tilt>
   		</div>
@@ -407,7 +407,7 @@ function HomePage(){
   		<div className="column2">
   		<Tilt className="content-2 Tilt br2 shadow-2" className="options={{max: 55}} style={{ zIndex: 500, height:'50px', width: '150px'}}">
   		<div className="Tilt-inner">
-  		<img style={{argin:'0', width: '150px', Height: '50px'}} src={LFD} alt='logo' />
+  		<img style={{argin:'0', width: '150px', Height: '50px'}} src={LFD} alt='LIBREFOUNDATION' />
   		</div> 
   		</Tilt>
   		</div>		
@@ -415,7 +415,7 @@ function HomePage(){
   		<div className="column2">
   		<Tilt className="content-2 Tilt br2 shadow-2" className= "options={{max: 55}} style={{zIndex: 500, height:'50px', width: '150px'}}">
   		<div className="Tilt-inner">
-  		<img style={{margin:'0', width: '150px', Height: '50px'}} src={UWN} alt='logo' />
+  		<img style={{margin:'0', width: '150px', Height: '50px'}} src={UWN} alt='UGANDA WOMENS NETWORK' />
   		</div> 
   		</Tilt>
   		</div>		
@@ -423,7 +423,7 @@ function HomePage(){
   		<div className="column2">
   		<Tilt className="content-2 Tilt br2 shadow-2" className="options={{max: 55}} style={{zIndex: 500, height:'50px', width: '150px'}}">
   		<div className="Tilt-inner">
-  		<img style={{margin:'0', width: '150px', Height: '50px'}} src={NAWOU} alt='logo' />
+  		<img style={{margin:'0', width: '150px', Height: '50px'}} src={NAWOU} alt='NAWOU' />
   		</div> 
   		</Tilt>	
   		</div>	

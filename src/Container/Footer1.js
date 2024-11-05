@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Copyright from './Copyright.JPG';
 import ButtonMailto from './ButtonMailto';
+
 import './Footer1.css';
 import logo from './logo.jpg';
 /*import ReactDOM from 'react-dom/client';*/
@@ -136,10 +137,10 @@ return (
 			label={<EmailIcon size={25} round={true}/>}  mailto="mailto:acholiwomen4peaced@gmail.com" style={{cursor: 'pointer'}}/>
 		  
 		  	<span></span>
-		  		<FacebookIcon size={25} round={true} style={{cursor: 'pointer'}}/>
+		  		<FacebookIcon size={25} round={true} onClick={()=>onRouteChange('FacebookLoginFooter')} style={{cursor: 'pointer'}}/>
 		
 		 <span></span>
-		<a href="https://wa.me/256782005825"><WhatsappIcon size={25} round={true} style={{cursor: 'pointer'}}/></a> 
+		<a href="https://wa.me/256782005826"><WhatsappIcon size={25} round={true} style={{cursor: 'pointer'}}/></a> 
 </div>
 
 </div>

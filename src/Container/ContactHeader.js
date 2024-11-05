@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './ContactHeader.css';
 import ButtonMailto from './ButtonMailto';
 
@@ -11,7 +11,8 @@ import {FacebookShareCount, EmailShareButton, FacebookIcon, FacebookShareButton,
 	WhatsappShareButton, WhatsappIcon, TwitterShareButton, TwitterIcon, 
 	LineIcon, LineShareButton} from 'react-share';
 
-function ContactHeader(onRouteChange){
+
+function ContactHeader({onRouteChange}){
 return(
 
 	<div className="flex-container">
@@ -33,10 +34,9 @@ return(
 				<ButtonMailto 
 			label={<EmailIcon size={32} round={true} alt="Email Us" style={{width: '20px', height: '20px', 'margin-top': '5px', cursor: 'pointer'}}/>}  mailto="mailto:acholiwomen4peaced@gmail.com" />
 				<span></span>
-				<FacebookIcon size={32} round={true} onClick={()=>onRouteChange('FacebookLogin')}  alt="facebook" style={{width: '20px', height: '20px', cursor: 'pointer'}}/>
+				<FacebookIcon size={32} round={true} onClick={()=>onRouteChange('FacebookLoginHeader')}  alt="facebook" style={{width: '20px', height: '20px', cursor: 'pointer'}}/>
 				<span></span>
-				<a href="https://wa.me/256782005825"> <WhatsappIcon size={32} round={true} alt="Whatsapp" style={{width: '20px', height: '20px', 'margin-top': '5px', cursor: 'pointer'}}/></a> 
-
+				<a href="https://wa.me/256782005826"> <WhatsappIcon size={32} round={true} alt="Whatsapp" style={{width: '20px', height: '20px', 'margin-top': '5px', cursor: 'pointer'}}/></a> 
 			</h6>
 		</div>
 	</div>	
