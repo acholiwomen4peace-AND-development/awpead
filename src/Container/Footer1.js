@@ -30,15 +30,15 @@ return (
 	<div>
 	
 	
-	<h5 className="w-5"><a onClick={()=>onRouteChange('HomePage')}  href=""><NavLink to="/Home">Home</NavLink></a></h5>
+	<h5 className="w-5"><a onClick={()=>{onRouteChange('HomePage')}}><NavLink to="/Home">Home</NavLink></a></h5>
 
-	    <div className="dropdown w-10" style={{zIndex: 400}}>     
+	    <div className="dropdown w-10" style={{zIndex: 450}}>     
 		<h5><a href=""><NavLink to="/About Us">About Us</NavLink></a></h5>
 	      <div className="dropdownlist">
 	     <p><a className="Listdown" href=""><NavLink to="/About Us/Who We are">Who We are</NavLink></a></p>
 	     <p><a className="Listdown" href=""><NavLink to="/About Us/Vision, Mission & Values">Vision, Mission & Values</NavLink></a></p>
 	     <p><a className="Listdown" href=""><NavLink to="/About Us/Where We work">Where We work</NavLink></a></p>
-	     <p><a className="Listdown" onClick={()=>onRouteChange('HomePage')}href=""><NavLink to="/About Us/Our Approach">Our Approach</NavLink></a></p>
+	     <p><a className="Listdown" onClick= {() =>onRouteChange('SignIn')}><NavLink to="/About Us/Our Approach">Our Approach</NavLink></a></p>
 	     <p><a className="Listdown" onClick= {() =>onRouteChange('OurTeam')}><NavLink to="/About Us/Our Team">Our Team</NavLink></a></p>
 	     </div>
 	     </div>

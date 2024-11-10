@@ -204,7 +204,7 @@ function HomePage(){
 	   		result of the concerted effort of the community to address 
 	   		issues of social justice and equality. This is particularly in 
 	   		response to the rehabilitation and the reconstruction needs resulting 
-	   		from the long period of insurgency in the northern Uganda with a focus 
+	   		from the long period of insurgency in northern Uganda with a focus 
 	   		on conflict reduction objective aimed at minimizing conditions for conflict and 
 	   		promoting an environment for durable peace and development.</p>
 	   		</div>
