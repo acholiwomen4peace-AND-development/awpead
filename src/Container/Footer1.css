@@ -105,6 +105,8 @@ padding-right: 2%;
 	justify-content: left!important;
 	text-height: 2px!important;
 }
+
+
 @media (max-width: 650px) {
 	.Footer-container1 h5{
 		font-size: 14px!important;
@@ -118,6 +120,7 @@ padding-right: 2%;
 h5 a{
 	font-size: 14px;
 }
+
 
 }
 .Footer-container1 .column h1{
