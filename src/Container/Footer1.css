@@ -53,6 +53,10 @@ height: 310px;
 width: 100%;
 font-color: whitesmoke!important;
 height: auto%;
+
+@media screen and (max-width: 860px){
+	height: 350px;
+	}
 }
 .Footer-container1 h5{
 display: flex;
@@ -165,6 +169,7 @@ font-size: 15px!important;
 width: 100%;
 font-color: whitesmoke!important;
 height: 60px;
+
 }
 .Footer-container2 span{
 	font-weight: 40px!important;
