@@ -1,0 +1,69 @@
+
+input[id='Search']{
+
+  width: 70%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.jpg");
+  background-size: 25px 25px;
+  background-position: 10px 10px; 
+  background-position: left center center;
+  background-repeat: no-repeat;
+  padding: 10px 20px 12px 30px;
+  transition: width 0.4s ease-in-out;
+
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+input[id='Search']:focus {
+  width: 100%;
+  
+}
+/*@media (max-width: 700px){
+  input[id='Search']{
+  width: 200px;
+  width: 30px;
+  }
+  .SBox2{
+    padding-left: 0px;
+    margin-left: 0px;
+    justify-content: left;
+  }
+  input[id='Search']:focus {
+  width: 40%;
+
+}
+}*/
+
+input[id='Search Friends']{
+  width: 215px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.jpg");
+  background-size: 25px 25px;
+  background-position: 10px 10px; 
+  background-position: left center center; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+
+  
+  
+}
+
+input[id='Search Friends']:focus {
+  width: 30%;
+  
+}
+

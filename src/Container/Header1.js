@@ -14,6 +14,7 @@ import {NavLink} from "react-router-dom";
 import './Navbar.css';
 /*import 'tachyons';*/
 function Header1({ onRouteChange, searchChange, onSearchChange }) {
+  
   const [menuOpen, setMenuOpen]=useState(false)
   return (
 <main style={{width: '100%'}}>
@@ -86,7 +87,7 @@ function Header1({ onRouteChange, searchChange, onSearchChange }) {
   
 
   
-  <li ><a onClick={()=>{setMenuOpen(!menuOpen);onRouteChange('Register')}}><NavLink to="/Sign Up">Sign Up</NavLink></a></li>
+  <li ><a onClick={()=>{setMenuOpen(!menuOpen);onRouteChange('OurTeam')}}><NavLink to="/Our Team">Our Team</NavLink></a></li>
   <li><a onClick={()=>{setMenuOpen(!menuOpen);onRouteChange('SignIn')}}><NavLink to="/Staff Portal">Staff Portal</NavLink></a></li>  
   </div>
 </ul>

@@ -21,6 +21,8 @@ import NAWOU from './Partners/NAWOU.jpg';
 import UWEAL from './Partners/UWEAL.jpg';
 import FocalPerson from './FocalPerson.jpg';
 
+import MeetTeam from './MeetTeam';
+
 
 
 function HomePage(){
@@ -36,6 +38,7 @@ function HomePage(){
 		
 		<div className='w-100 pointer center shadow-1  grow bg-light-blue pa1 br5 pa0 ma0'>
 		<h1 className='center'><span> <strong>OUR PROGRAMMES</strong></span></h1>
+		<div className="underli"></div>
 		</div>
 
 		<div className="flex-container-1 row">
@@ -186,6 +189,9 @@ function HomePage(){
 				    </section>
 	   				 </div>
 	   			</div>
+	   	<div className='w-100 pointer center shadow-1  grow bg-light-blue pa1 br5 pa0 ma0'>
+		<h1 className='center'><span> <strong>MEET OUR TEAM</strong></span></h1>
+		</div> 
 
 	   	<div className='w-100 pointer center shadow-1  grow bg-light-blue pa1 br5 pa0 ma0'>
 		<h1 className='center'><span> <strong>ABOUT</strong></span></h1>

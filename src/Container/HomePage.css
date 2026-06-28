@@ -442,6 +442,16 @@ ol, table, th,td, tr{
 }
 
 
+.underli{
+	width: 200px;
+  height: 6px;
+  background: linear-gradient(90deg, rgb(26, 35, 126) 60%, rgb(255, 214, 0) 100%);
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
 
 
 /*

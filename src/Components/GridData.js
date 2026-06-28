@@ -2,60 +2,73 @@
 export const GridData = 
 [
 	
-	{
-	id: 16,
-	name: 'Director',
-	email: 'director@gmail.com'
-	},
+	
 	{
 	id: 17,
-	name: 'Coordinator',
+	name: 'Executive Director - OYELLA ALBA OLWENY',
 	contact:'0782888455',
-	email: 'programmecoordinator@gmail.com'
-	},
-
-	{
-	id: 5,
-	name: 'Office Assistant',
-	email: 'officeassistant@gmail.com'
-	
+	email: 'oyellaalba82@gmail.com'
 	},
 	{
 	id: 6,
-	name: 'Data Clerk',
-	email: 'dataclerk@gmail.com'
-	
+	name: 'Coordinator - Charles Okot',
+	contact:'0786121688',
+	email: 'charleokot@gmail.com'
 	},
+	
 	{
-	id: 6-1,
-	name: 'Procurement Officer',
-	email: 'procurement@gmail.com'
-	
+	id: 18,
+	name: 'Finance and Admin - Monica Okot',
+	contact:'0771022502',
+	email: 'monicaokot25@gmail.com'
 	},
 	
+	{
+	id: 11,
+	name: 'Field Staff - Rose Mary',
+	contact:'0774293099',
+	email: '0774293099'
+	},
 	{
 	id: 10,
-	name: 'Okidi- IT Support',
+	name: 'IT Support Volunteer - Michael Okidi',
 	contact:'0779943327/ 0782005826',
-	email: 'okidi.michael@gmail.com'
+	email: '0779943327/ 0782005826'
 	},
-
+	{
+	id: 5,
+	name: 'Procurement Officer',
+	email: ''
+	},
 	{
 	id: 13,
-	name: ' Monica - Volunteer ',
+	name: 'Data Entry Clerk',
 	contact :'0785487351',
-	email: 'volunteer@gmail.com'
+	email: ''
 	},
 	{
 	id: 14,
-	name: 'Volunteer ',
+	name: 'Field Staff - Irene Ayoo ',
 	contact :'0785487351',
-	email: 'volunteer@gmail.com'
+	email: ''
 	},
 	{
+	id: 16,
+	name: 'Field Staff',
+	contact :'0785487351',
+	email: ''
+	},
+
+	{
 	id: 15,
-	name: ' Driver',
+	name: 'Account Assistant',
 	Contact:'0785487351',
-	email: 'volunteer@gmail.com'
+	email: ''
+	},
+	{
+	id: 7,
+	name: 'Office Assistant - Irene Achan',
+	contact:'',
+	email: ''
 	}
 ]

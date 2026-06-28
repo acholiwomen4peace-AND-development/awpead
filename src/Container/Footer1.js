@@ -155,7 +155,7 @@ return (
 	
 <div className="Footer-container2 CopyR">
 		<div className="flex-item-left">
-		<p> <img src={Copyright} alt="Copy rights:" style={{width: '20px', height: '20px'}}/>Copy Rights Acholi Women for Peace and Development<span>|</span>2024 All Rights Reserved </p>
+		<p> <img src={Copyright} alt="Copy rights:" style={{width: '20px', height: '20px'}}/><span>|</span>2026 All Rights Reserved </p>
 		</div>
 
 

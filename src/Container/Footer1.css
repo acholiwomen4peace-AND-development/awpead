@@ -53,10 +53,6 @@ height: 310px;
 width: 100%;
 font-color: whitesmoke!important;
 height: auto%;
-
-@media screen and (max-width: 860px){
-	height: 350px;
-	}
 }
 .Footer-container1 h5{
 display: flex;
@@ -109,8 +105,6 @@ padding-right: 2%;
 	justify-content: left!important;
 	text-height: 2px!important;
 }
-
-
 @media (max-width: 650px) {
 	.Footer-container1 h5{
 		font-size: 14px!important;
@@ -124,7 +118,6 @@ padding-right: 2%;
 h5 a{
 	font-size: 14px;
 }
-
 
 }
 .Footer-container1 .column h1{
@@ -169,7 +162,6 @@ font-size: 15px!important;
 width: 100%;
 font-color: whitesmoke!important;
 height: 60px;
-
 }
 .Footer-container2 span{
 	font-weight: 40px!important;
